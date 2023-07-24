@@ -1,0 +1,111 @@
+
+.main-container {
+    text-align: center;
+    width: 700px;
+    padding: 60px;
+    background-color: var(--darkest);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 252, 252, 0.984);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main-container.blur {
+    filter: blur(80px); /* Adjust the blur strength as needed */
+    pointer-events: none; /* Prevent interactions with the blurred content */
+  }
+  
+
+  
+.main-container h1
+{
+    font-family: 'Lumanosimo', cursive;
+    color:var(--pink);
+    text-align: center;
+     
+   
+}
+
+.progress-bar
+{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.progress-bar h4
+{
+  color : var(--pink);
+  
+  font-size: 19px;
+}
+
+.question-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-container h3
+{
+    color : var(--pink);
+    font-size: 19px;
+    padding-right: 10px;
+    
+}
+.question-container p
+{
+  font-family: 'PT Serif', serif;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+ 
+
+.button-container
+{
+  display : flex;
+   justify-content: space-between;
+}
+
+.customer-rating
+{
+   margin-bottom: 40px;
+   margin-top : 10px;
+}
+.rating-circles
+{
+  display : flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+.rating-circles .circle{
+  border-radius: 50%;
+  background-color: var(--purple);
+  height: 50px;
+  width: 50px;
+  display : flex;
+  align-items : center;
+  justify-content : center;
+  margin-right : 20px;
+  color: black;
+  
+}
+.circle:hover
+{
+  background-color: rgb(24, 224, 107);
+  cursor: pointer;
+}
+.button-container button:hover
+{
+  background-color:  rgb(24, 181, 224);
+}
+.rating-circles .selected
+{
+  background-color: rgb(16, 176, 123) ;
+} 
+ 
+ 
